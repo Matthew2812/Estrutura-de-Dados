@@ -1,13 +1,11 @@
-
 #include <iostream>
-#include <cstdlib>
 #include "Triangulo.h"
 
 
 int main() {
   int i = 0;
   double soma;
-  double vet[10] = {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1,};
+  double vet[10];
   while (true){
     int op;
     std::cout << "\nOpção 0: Sair" << std::endl;
