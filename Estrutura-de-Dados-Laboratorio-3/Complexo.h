@@ -8,8 +8,8 @@ class Complexo{
 	public:
 		Complexo(double vr, double vi);
 		Complexo operator+(Complexo c);
-    Complexo operator-(Complexo c);
-    Complexo operator*(Complexo c);
+    		Complexo operator-(Complexo c);
+    		Complexo operator*(Complexo c);
 		double getR();
 		double getI();
 };
